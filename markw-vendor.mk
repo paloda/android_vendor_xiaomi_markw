@@ -22,7 +22,9 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     fastdormancy \
+    qcrilhook \
     QtiTelephonyService \
+    QtiTetherService \
     shutdownlistener \
     TimeService \
     com.qualcomm.location \
@@ -1455,4 +1457,20 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/soundfx/libqcvirt.so:system/vendor/lib64/soundfx/libqcvirt.so \
     vendor/xiaomi/markw/proprietary/vendor/qcril.db:system/vendor/qcril.db \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
+    vendor/xiaomi/markw/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/xiaomi/markw/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/xiaomi/markw/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
+    vendor/xiaomi/markw/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libqti-wl.so:system/vendor/lib/libqti-wl.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libqti-at.so:system/vendor/lib64/libqti-at.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libqti-gt.so:system/vendor/lib64/libqti-gt.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libqti-wl.so:system/vendor/lib64/libqti-wl.so \
+    vendor/xiaomi/mido/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/xiaomi/mido/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so
