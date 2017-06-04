@@ -19,10 +19,7 @@ PRODUCT_PACKAGES += \
     libperipheral_client
 
 PRODUCT_PACKAGES += \
-    datastatusnotification \
-    embms \
     fastdormancy \
-    qcrilhook \
     QtiTelephonyService \
     QtiTetherService \
     shutdownlistener \
@@ -1458,7 +1455,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
     vendor/xiaomi/markw/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/xiaomi/markw/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
-    vendor/xiaomi/markw/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/markw/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
     vendor/xiaomi/markw/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
