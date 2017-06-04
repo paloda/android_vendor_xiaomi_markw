@@ -210,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
     vendor/xiaomi/markw/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/markw/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/markw/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/markw/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.fpc.so \
@@ -230,7 +229,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/markw/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/markw/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
-    vendor/xiaomi/markw/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.fpc.so \
     vendor/xiaomi/markw/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
@@ -1473,4 +1471,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mido/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/xiaomi/mido/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/xiaomi/markw/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so
+    vendor/xiaomi/markw/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so
